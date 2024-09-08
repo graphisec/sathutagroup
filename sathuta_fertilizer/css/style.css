@@ -230,6 +230,7 @@ h6,
     text-align: center;
     background: rgba(15, 66, 41, .6);
     z-index: 1;
+    animation: fadeInUp 2s ease-in-out; /* Fade-in animation for captions */
 }
 
 .carousel-control-prev,
@@ -244,6 +245,34 @@ h6,
     border-radius: 3rem;
     background-color: var(--primary);
     border: 10px solid var(--primary);
+}
+
+.carousel-item img {
+    animation: zoomInOut 10s infinite ease-in-out; /* Zoom animation for images */
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes zoomInOut {
+    0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(1deg) scale(1.02);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 768px) {
@@ -274,7 +303,6 @@ h6,
     font-size: 18px;
     color: var(--light);
 }
-
 
 /*** Top Feature ***/
 @media (min-width: 991.98px) {
@@ -660,7 +688,7 @@ h6,
     color: #777;
     font-style: italic;
 
-
+}
 
 
 

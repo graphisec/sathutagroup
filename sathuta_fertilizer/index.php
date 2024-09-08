@@ -54,6 +54,13 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- Custom Swiper CSS -->
+    <link rel="stylesheet" href="css/custom-swiper.css" />
+ 
 </head>
 
 <body>
@@ -79,6 +86,7 @@
             </div>
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <span style="font-size: 13px; margin-bottom: -2px; margin-right:22px;">OUR GROUP</span>
                     <span style="font-size: 12px; margin-bottom: -2px;">Follow Us:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -147,12 +155,12 @@
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8">
+                                <div class="col-lg-7">
                                     <h1 class="display-1 text-white mb-5 animated slideInDown">Best Quality Fertilizer Products In South Asia</h1>
                                     <a href="../index.php" class="btn btn-primary py-sm-3 px-sm-4">Sathuta Group</a>
                                 </div>
@@ -165,7 +173,20 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-7">
+                                <div class="col-lg-8">
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Best Quality Fertilizer Products In South Asia</h1>
+                                    <a href="../index.php" class="btn btn-primary py-sm-3 px-sm-4">Sathuta Group</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
                                     <h1 class="display-1 text-white mb-5 animated slideInDown">Best Quality Fertilizer Products In South Asia</h1>
                                     <a href="../index.php" class="btn btn-primary py-sm-3 px-sm-4">Sathuta Group</a>
                                 </div>
@@ -189,57 +210,63 @@
     <!-- Carousel End -->
 
 
-    <!-- Top Feature Start -->
-    <div class="container-fluid top-feature py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-times text-primary"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4 style="font-size: 17px;">Quality Products & Services</h4>
-                                <span style="font-size: 15px;">We provide most quality products and also most reliable service.</span>
-                            </div>
+<!-- Top Feature Start -->
+    <div class="swiper mySwiper mt-4">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="card bg-white shadow d-flex flex-column align-items-center justify-content-center h-100 p-5" style="min-height: 200px;">
+                    <div class="icon-wrapper mb-3">
+                        <div class="btn-lg-square rounded-circle bg-light">
+                            <i class="fa fa-times text-primary"></i>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-users text-primary"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4 style="font-size: 17px;">Dedicated Team</h4>
-                                <span style="font-size: 15px;">We are strong team with more than 100+ human resources.</span>
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <h3>Quality Products & Services</h3>
+                        <p>We provide the most quality products and also the most reliable service.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-phone text-primary"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4 style="font-size: 17px;">8/7 Service</h4>
-                                <span style="font-size: 15px;">We provide service on every weekdays and also on every week end as well.</span>
-                            </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="card bg-white shadow d-flex flex-column align-items-center justify-content-center h-100 p-5" style="min-height: 200px;">
+                    <div class="icon-wrapper mb-3">
+                        <div class="btn-lg-square rounded-circle bg-light">
+                            <i class="fa fa-users text-primary"></i>
                         </div>
+                    </div>
+                    <div class="text-center">
+                        <h3>Dedicated Team</h3>
+                        <p>We have a strong team with more than 100+ human resources.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="card bg-white shadow d-flex flex-column align-items-center justify-content-center h-100 p-5" style="min-height: 200px;">
+                    <div class="icon-wrapper mb-3">
+                        <div class="btn-lg-square rounded-circle bg-light">
+                            <i class="fa fa-phone text-primary"></i>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3>8/7 Service</h3>
+                        <p>We provide service on every weekday and also on weekends.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Pagination and Navigation buttons -->
+        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
     </div>
-    <!-- Top Feature End -->
+<!-- Top Feature End -->
+
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl mt-4 py-5">
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -272,7 +299,7 @@
                 </div> -->
             </div>
         </div>
-    </div>
+    </div>  
     <!-- About End -->
 
 
@@ -819,6 +846,29 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+            autoplay: {
+                delay: 4000,
+            },
+        });
+    </script>
+
 </body>
 
 </html>
