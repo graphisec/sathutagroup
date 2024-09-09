@@ -70,24 +70,100 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark text-light px-0 py-2">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
+        <div class="row gx-0">
+            <div class="col-lg-12 px-3 d-flex flex-wrap align-items-center justify-content-between">
+                <div class="d-inline-flex align-items-center me-2">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span><a href="tel:+94705999888" class="contact_2">+94 70 599 9888</a></span>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center">
+                <!-- <div class="d-inline-flex align-items-center me-4">
                     <span class="far fa-envelope me-2"></span>
                     <span><a href="mailto:fertilizer@sathutagroup.com" class="contact_2">fertilizer@sathutagroup.com</a></span>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span style="font-size: 13px; margin-bottom: -2px; margin-right:22px;">OUR GROUP</span>
-                    <span style="font-size: 12px; margin-bottom: -2px;">Follow Us:</span>
+                </div> -->
+                <div class="topbar-links d-flex flex-wrap align-items-center">
+                    <!-- Links Section with Buttons -->
+                    <a href="https://sathutaindustry.lk/" class="btn me-1" style="
+                        background-color: rgba(248, 249, 250, 0.8); 
+                        color: #333; 
+                        border: 1px solid #ddd; 
+                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+                        border-radius: 3px; 
+                        padding: 8px 16px; 
+                        font-size: 10px; 
+                        text-decoration: none; display: inline-block;"
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
+                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        Sathuta Industry
+                    </a>
+                    <a href="../sathuta_fertilizer/index.php" class="btn me-1" style="
+                        background-color: rgba(40, 167, 69, 0.8); 
+                        color: #fff; 
+                        border: 1px solid #28a745; 
+                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+                        border-radius: 3px; 
+                        padding: 8px 16px; 
+                        font-size: 10px; 
+                        text-decoration: none; display: inline-block;"
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 1)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
+                        onmouseout="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='none';">
+                        Sathuta Fertilizer
+                    </a>
+                    <a href="../sathuta_metal_crusher/index.php" class="btn me-1" style="
+                        background-color: rgba(248, 249, 250, 0.8); 
+                        color: #333; 
+                        border: 1px solid #ddd; 
+                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+                        border-radius: 3px; 
+                        padding: 8px 16px; 
+                        font-size: 10px; 
+                        text-decoration: none; display: inline-block;"
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
+                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        Sathuta Metal Crusher
+                    </a>
+                    <a href="../sathuta_construction/index.php" class="btn me-1" style="
+                        background-color: rgba(248, 249, 250, 0.8); 
+                        color: #333; 
+                        border: 1px solid #ddd; 
+                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+                        border-radius: 3px; 
+                        padding: 8px 16px; 
+                        font-size: 10px; 
+                        text-decoration: none; display: inline-block;"
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
+                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        Sathuta Construction
+                    </a>
+                    <a href="../sathuta_transport/index.php" class="btn me-1" style="
+                        background-color: rgba(248, 249, 250, 0.8); 
+                        color: #333; 
+                        border: 1px solid #ddd; 
+                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+                        border-radius: 3px; 
+                        padding: 8px 16px; 
+                        font-size: 10px; 
+                        text-decoration: none; display: inline-block;"
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
+                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        Sathuta Transport
+                    </a>
+                    <a href="../sathuta_machinery/index.php" class="btn me-2" style="
+                        background-color: rgba(248, 249, 250, 0.8); 
+                        color: #333; 
+                        border: 1px solid #ddd; 
+                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+                        border-radius: 3px; 
+                        padding: 8px 16px; 
+                        font-size: 10px; 
+                        text-decoration: none; display: inline-block;"
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
+                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        Sathuta Machinery
+                    </a>
+                    <!-- Follow Us Section -->
+                    <span style="font-size: 12px; color: #fff;">Follow Us:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
