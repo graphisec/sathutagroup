@@ -57,10 +57,9 @@
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/swiper-styles.css"/>
 
-   <!-- Custom Swiper CSS -->
-    <!-- <link rel="stylesheet" href="css/custom-swiper.css" /> -->
+    <!-- Custom Swiper CSS -->
+    <link rel="stylesheet" href="css/custom-swiper.css" />
  
 </head>
 
@@ -71,94 +70,22 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark text-light px-0 py-2">
-        <div class="row gx-0">
-            <div class="col-lg-12 px-3 d-flex flex-wrap align-items-center justify-content-between">
-                <div class="d-inline-flex align-items-center me-2">
+       <!-- Topbar Start -->
+       <div class="container-fluid bg-dark text-light px-0 py-2">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
-                    <span><a href="tel:+94705999888" class="contact_2">+94 70 599 9888</a></span>
+                    <span><a href="tel:+94773734244" class="contact_2">+94 77 373 4244</a></span>
                 </div>
-                <!-- <div class="d-inline-flex align-items-center me-4">
+                <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
-                    <span><a href="mailto:fertilizer@sathutagroup.com" class="contact_2">fertilizer@sathutagroup.com</a></span>
-                </div> -->
-                <div class="topbar-links d-flex flex-wrap align-items-center">
-                    <!-- Links Section with Buttons -->
-                    <a href="https://sathutaindustry.lk/" class="btn me-1" style="
-                        background-color: rgba(15, 66, 41, 0.5); 
-                        color: #fff; 
-                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-                        border-radius: 3px; 
-                        padding: 8px 16px; 
-                        font-size: 10px; 
-                        text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
-                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
-                        Sathuta Industry
-                    </a>
-                    <a href="../sathuta_fertilizer/index.php" class="btn me-1" style="
-                        background-color: rgba(40, 167, 69, 0.8); 
-                        color: #fff; 
-                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-                        border-radius: 3px; 
-                        padding: 8px 16px; 
-                        font-size: 10px; 
-                        text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 1)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
-                        onmouseout="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='none';">
-                        Sathuta Fertilizer
-                    </a>
-                    <a href="../sathuta_metal_crusher/index.php" class="btn me-1" style="
-                        background-color: rgba(15, 66, 41, 0.5); 
-                        color: #fff; 
-                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-                        border-radius: 3px; 
-                        padding: 8px 16px; 
-                        font-size: 10px; 
-                        text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
-                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
-                        Sathuta Metal Crusher
-                    </a>
-                    <a href="../sathuta_construction/index.php" class="btn me-1" style="
-                        background-color: rgba(15, 66, 41, 0.5); 
-                        color: #fff; 
-                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-                        border-radius: 3px; 
-                        padding: 8px 16px; 
-                        font-size: 10px; 
-                        text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
-                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
-                        Sathuta Construction
-                    </a>
-                    <a href="../sathuta_transport/index.php" class="btn me-1" style="
-                        background-color: rgba(15, 66, 41, 0.5); 
-                        color: #fff; 
-                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-                        border-radius: 3px; 
-                        padding: 8px 16px; 
-                        font-size: 10px; 
-                        text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
-                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
-                        Sathuta Transport
-                    </a>
-                    <a href="../sathuta_machinery/index.php" class="btn me-2" style="
-                        background-color: rgba(15, 66, 41, 0.5); 
-                        color: #fff; 
-                        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-                        border-radius: 3px; 
-                        padding: 8px 16px; 
-                        font-size: 10px; 
-                        text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
-                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
-                        Sathuta Machinery
-                    </a>
-                    <!-- Follow Us Section -->
-                    <span style="font-size: 12px; color: #fff;">Follow Us:</span>
+                    <span><a href="mailto:contact@sathutagroup.com" class="contact_2">contact@sathutagroup.com</a></span>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <span style="font-size: 12px; margin-bottom: -2px;">Follow Us:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
@@ -281,58 +208,53 @@
     <!-- Carousel End -->
 
 
-<!-- Top Feature Start -->
-    <div class="swiper mySwiper mt-4">
-        <div class="swiper-wrapper">
-            <!-- Slide 1 -->
-            <div class="swiper-slide">
-                
-                    <div class="icon-wrapper mb-3">
-                        <div class="btn-lg-square rounded-circle bg-light">
-                            <i class="fa fa-times text-primary"></i>
+ <!-- Top Feature Start -->
+ <div class="container-fluid top-feature py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-times text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4 style="font-size: 17px;">Quality Products & Services</h4>
+                                <span style="font-size: 15px;">We provide most quality products and also most reliable service.</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center">
-                        <h3>Quality Products & Services</h3>
-                        <p>We provide the most quality products and also the most reliable service.</p>
-                    </div>
-              
-            </div>
-            <!-- Slide 2 -->
-            <div class="swiper-slide">
-               
-                    <div class="icon-wrapper mb-3">
-                        <div class="btn-lg-square rounded-circle bg-light">
-                            <i class="fa fa-users text-primary"></i>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-users text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4 style="font-size: 17px;">Dedicated Team</h4>
+                                <span style="font-size: 15px;">We are strong team with more than 100+ human resources.</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center">
-                        <h3>Dedicated Team</h3>
-                        <p>We have a strong team with more than 100+ human resources.</p>
-                    </div>
-               
-            </div>
-            <!-- Slide 3 -->
-            <div class="swiper-slide">
-               
-                    <div class="icon-wrapper mb-3">
-                        <div class="btn-lg-square rounded-circle bg-light">
-                            <i class="fa fa-phone text-primary"></i>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-phone text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4 style="font-size: 17px;">8/7 Service</h4>
+                                <span style="font-size: 15px;">We provide service on every weekdays and also on every week end as well.</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center">
-                        <h3>8/7 Service</h3>
-                        <p>We provide service on every weekday and also on weekends.</p>
-                    </div>
-                
+                </div>
             </div>
         </div>
-        <!-- Pagination and Navigation buttons -->
-        <div class="swiper-pagination"></div>
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
     </div>
-<!-- Top Feature End -->
+    <!-- Top Feature End -->
 
 
 
@@ -918,23 +840,10 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- <script src="js/swiper-script.js"></script> -->
-    
     <script>
-         var swiper = new Swiper(".mySwiper", {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 1.2,
-            spaceBetween: -300, 
-            coverflowEffect: {
-                rotate: 0,  
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
             loop: true,
             pagination: {
                 el: ".swiper-pagination",
