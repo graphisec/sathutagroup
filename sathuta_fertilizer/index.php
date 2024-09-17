@@ -97,7 +97,7 @@
                  </nav>
              
                  <div class="h-100 d-inline-flex align-items-right">
-                 <span style="font-size: 12px; margin-bottom: -2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow&nbsp;Us:</span>
+                 <span class="follow-text">Follow <span class="us-text">Us:</span></span>
                      <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                      <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
                  </div>

@@ -58,4 +58,19 @@
     align-items: center;
 }
 
+/* Adjust the spacing between "Follow Us */
+.follow-text {
+    font-size: 12px;
+    margin-bottom: -2px;
+    margin-left: 20px;
+}
+
+.us-text {
+    margin-left: 2px; 
+}
+
+.h-100.d-inline-flex.align-items-center {
+    gap: 10px; 
+}
+
 
