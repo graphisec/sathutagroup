@@ -57,9 +57,10 @@
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-styles.css"/>
 
-    <!-- Custom Swiper CSS -->
-    <link rel="stylesheet" href="css/custom-swiper.css" />
+   <!-- Custom Swiper CSS -->
+    <!-- <link rel="stylesheet" href="css/custom-swiper.css" /> -->
  
 </head>
 
@@ -85,22 +86,20 @@
                 <div class="topbar-links d-flex flex-wrap align-items-center">
                     <!-- Links Section with Buttons -->
                     <a href="https://sathutaindustry.lk/" class="btn me-1" style="
-                        background-color: rgba(248, 249, 250, 0.8); 
-                        color: #333; 
-                        border: 1px solid #ddd; 
+                        background-color: rgba(15, 66, 41, 0.5); 
+                        color: #fff; 
                         transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
                         border-radius: 3px; 
                         padding: 8px 16px; 
                         font-size: 10px; 
                         text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
-                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
+                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
                         Sathuta Industry
                     </a>
                     <a href="../sathuta_fertilizer/index.php" class="btn me-1" style="
                         background-color: rgba(40, 167, 69, 0.8); 
                         color: #fff; 
-                        border: 1px solid #28a745; 
                         transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
                         border-radius: 3px; 
                         padding: 8px 16px; 
@@ -111,55 +110,51 @@
                         Sathuta Fertilizer
                     </a>
                     <a href="../sathuta_metal_crusher/index.php" class="btn me-1" style="
-                        background-color: rgba(248, 249, 250, 0.8); 
-                        color: #333; 
-                        border: 1px solid #ddd; 
+                        background-color: rgba(15, 66, 41, 0.5); 
+                        color: #fff; 
                         transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
                         border-radius: 3px; 
                         padding: 8px 16px; 
                         font-size: 10px; 
                         text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
-                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
+                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
                         Sathuta Metal Crusher
                     </a>
                     <a href="../sathuta_construction/index.php" class="btn me-1" style="
-                        background-color: rgba(248, 249, 250, 0.8); 
-                        color: #333; 
-                        border: 1px solid #ddd; 
+                        background-color: rgba(15, 66, 41, 0.5); 
+                        color: #fff; 
                         transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
                         border-radius: 3px; 
                         padding: 8px 16px; 
                         font-size: 10px; 
                         text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
-                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
+                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
                         Sathuta Construction
                     </a>
                     <a href="../sathuta_transport/index.php" class="btn me-1" style="
-                        background-color: rgba(248, 249, 250, 0.8); 
-                        color: #333; 
-                        border: 1px solid #ddd; 
+                        background-color: rgba(15, 66, 41, 0.5); 
+                        color: #fff; 
                         transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
                         border-radius: 3px; 
                         padding: 8px 16px; 
                         font-size: 10px; 
                         text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
-                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
+                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
                         Sathuta Transport
                     </a>
                     <a href="../sathuta_machinery/index.php" class="btn me-2" style="
-                        background-color: rgba(248, 249, 250, 0.8); 
-                        color: #333; 
-                        border: 1px solid #ddd; 
+                        background-color: rgba(15, 66, 41, 0.5); 
+                        color: #fff; 
                         transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
                         border-radius: 3px; 
                         padding: 8px 16px; 
                         font-size: 10px; 
                         text-decoration: none; display: inline-block;"
-                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.8)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.8)';"
-                        onmouseout="this.style.backgroundColor='rgba(248, 249, 250, 0.8)'; this.style.color='#333'; this.style.boxShadow='none';">
+                        onmouseover="this.style.backgroundColor='rgba(40, 167, 69, 0.5)'; this.style.color='#fff'; this.style.boxShadow='0 0 8px rgba(40, 167, 69, 0.5)';"
+                        onmouseout="this.style.backgroundColor='rgba(15, 66, 41, 0.5)'; this.style.color='#fff'; this.style.boxShadow='none';">
                         Sathuta Machinery
                     </a>
                     <!-- Follow Us Section -->
@@ -291,7 +286,7 @@
         <div class="swiper-wrapper">
             <!-- Slide 1 -->
             <div class="swiper-slide">
-                <div class="card bg-white shadow d-flex flex-column align-items-center justify-content-center h-100 p-5" style="min-height: 200px;">
+                
                     <div class="icon-wrapper mb-3">
                         <div class="btn-lg-square rounded-circle bg-light">
                             <i class="fa fa-times text-primary"></i>
@@ -301,11 +296,11 @@
                         <h3>Quality Products & Services</h3>
                         <p>We provide the most quality products and also the most reliable service.</p>
                     </div>
-                </div>
+              
             </div>
             <!-- Slide 2 -->
             <div class="swiper-slide">
-                <div class="card bg-white shadow d-flex flex-column align-items-center justify-content-center h-100 p-5" style="min-height: 200px;">
+               
                     <div class="icon-wrapper mb-3">
                         <div class="btn-lg-square rounded-circle bg-light">
                             <i class="fa fa-users text-primary"></i>
@@ -315,11 +310,11 @@
                         <h3>Dedicated Team</h3>
                         <p>We have a strong team with more than 100+ human resources.</p>
                     </div>
-                </div>
+               
             </div>
             <!-- Slide 3 -->
             <div class="swiper-slide">
-                <div class="card bg-white shadow d-flex flex-column align-items-center justify-content-center h-100 p-5" style="min-height: 200px;">
+               
                     <div class="icon-wrapper mb-3">
                         <div class="btn-lg-square rounded-circle bg-light">
                             <i class="fa fa-phone text-primary"></i>
@@ -329,7 +324,7 @@
                         <h3>8/7 Service</h3>
                         <p>We provide service on every weekday and also on weekends.</p>
                     </div>
-                </div>
+                
             </div>
         </div>
         <!-- Pagination and Navigation buttons -->
@@ -925,11 +920,21 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="js/swiper-script.js"></script> -->
     
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
+         var swiper = new Swiper(".mySwiper", {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 1.2,
+            spaceBetween: -300, 
+            coverflowEffect: {
+                rotate: 0,  
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
             loop: true,
             pagination: {
                 el: ".swiper-pagination",
