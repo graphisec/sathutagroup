@@ -129,14 +129,18 @@
             
         }
         .top-link:hover {
-            background-color: #348E38;
+            background-color: #fff;
             color: white;
             display: flex;
+            color: black;
+            font-weight: bold;
         }
         .top-link.active {
-            background-color: #348E38;
+            background-color: #fff;
             border-right: 2px solid rgba(0, 0, 0, .060);
             display: flex;
+            color: black;
+            font-weight: bold;
 
         }
         .group {
