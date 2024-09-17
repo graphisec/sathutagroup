@@ -74,39 +74,41 @@
     <!-- Spinner End -->
 
        <!-- Topbar Start -->
-       <div class="container-fluid bg-dark text-light px-0 py-2">
+       <div class="container-fluid bg-dark text-light px-0 py-0">
         <div class="row gx-0 d-none d-lg-flex align-items-center justify-content-between">
-            <div class="col-lg-4 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <span class="fa fa-phone-alt me-2"></span>
-                    <span><a href="tel:+94773734244" class="contact_2">+94 77 373 4244</a></span>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <span class="far fa-envelope me-2"></span>
-                    <span><a href="mailto:contact@sathutagroup.com" class="contact_2">contact@sathutagroup.com</a></span>
-                </div>
-            </div>
+        <div class="col-lg-4 px-5 text-start">
+            <a href="index.php" class="navbar-brand d-flex align-items-center p-0">
+                <img class="logosize" src="img/logocroped.png" alt="Sathuta Group Logo">
+            </a>
+        </div>
+        <style>
+        .logosize {
+            width: 150px;
+            height: auto; 
+        }
+        </style>
 
 
-            <div class="col-lg-6 px-5 text-center">
-                <nav class="top d-inline-flex justify-content-center">
-                    <a class="group mx-2">SATHUTA GROUP|</a>
-                    <a class="top-link mx-2" href="https://sathutaindustry.lk/">Industry</a>
-                    <a class="top-link mx-2 active" href="../sathuta_fertilizer/index.php">Fertilizer</a>
-                    <a class="top-link mx-2" href="../sathuta_metal_crusher/index.php">Metal Crusher</a>
-                    <a class="top-link mx-2" href="../sathuta_construction/index.php">Construction</a>
-                    <a class="top-link mx-2" href="../sathuta_transport/index.php">Transport</a>
-                    <a class="top-link mx-2" href="../sathuta_machinery/index.php">Machinery</a>
+
+
+            <div class="col-lg-8 px-5 d-flex justify-content-end">
+                <nav class="top d-inline-flex align-items-end">
+                    <!--<a class="group mx-2">SATHUTA GROUP|</a> -->
+                    <a class="top-link" href="https://sathutaindustry.lk/">Industry</a>
+                    <a class="top-link active" href="../sathuta_fertilizer/index.php">Fertilizer</a>
+                    <a class="top-link" href="../sathuta_metal_crusher/index.php">Metal Crusher</a>
+                    <a class="top-link" href="../sathuta_construction/index.php">Construction</a>
+                    <a class="top-link" href="../sathuta_transport/index.php">Transport</a>
+                    <a class="top-link" href="../sathuta_machinery/index.php">Machinery</a>
                 </nav>
-            </div>
-
-            <div class="col-lg-2 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span style="font-size: 12px; margin-bottom: -2px;">Follow Us:</span>
+            
+                <div class="h-100 d-inline-flex align-items-right">
+                <span style="font-size: 12px; margin-bottom: -2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow&nbsp;Us:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
+
         </div>
 
 
@@ -117,20 +119,25 @@
         <style>
         .top-link {
             border: none;
-            border-radius: 3px; 
+            /* border-radius: 3px;  */
             padding: 8px 6px;
             font-size: 12px;
             color: white;
             transition: background-color 0.3s, color 0.3s;
             white-space: nowrap;
+            border-right: 2px solid rgba(0, 0, 0, .060);
+            
         }
         .top-link:hover {
             background-color: #348E38;
             color: white;
+            display: flex;
         }
         .top-link.active {
             background-color: #348E38;
-            color: white;
+            border-right: 2px solid rgba(0, 0, 0, .060);
+            display: flex;
+
         }
         .group {
             border: none;
@@ -158,7 +165,6 @@
             display: inline-flex;
             align-items: center;
         }
-
 
         </style>
         <!-- Topbar Button styles -->
