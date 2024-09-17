@@ -1,4 +1,5 @@
 
+/* topbar logo css */
 .logosize {
     width: 150px;
     height: auto; 
@@ -21,6 +22,7 @@
     color: white;
     display: flex;
     color: black;
+    opacity: 70%;
     font-weight: bold;
 }
 .top-link.active {
@@ -28,6 +30,7 @@
     border-right: 2px solid rgba(0, 0, 0, .060);
     display: flex;
     color: black;
+    opacity: 80%;
     font-weight: bold;
 
 }
@@ -73,4 +76,19 @@
     gap: 10px; 
 }
 
+
+/* Top Feature */
+.feature-item {
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    background-color: #d4edda; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.feature-item:hover .bg-white {
+    background-color: #d4edda; 
+}
 

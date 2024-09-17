@@ -59,7 +59,7 @@
     <link rel="stylesheet" type="text/css" href="css/sidebar.css">
 
     <!-- Topbar CSS -->
-    <link rel="stylesheet" href="css/topbar.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body>
@@ -72,7 +72,7 @@
 
     <!-- Topbar -->
     <?php include 'topbar.php'; ?>
-    
+
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
