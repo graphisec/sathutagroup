@@ -1,0 +1,61 @@
+
+.logosize {
+    width: 150px;
+    height: auto; 
+}
+/* Topbar Button css */
+
+.top-link {
+    border: none;
+    /* border-radius: 3px;  */
+    padding: 8px 6px;
+    font-size: 12px;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+    border-right: 2px solid rgba(0, 0, 0, .060);
+    
+}
+.top-link:hover {
+    background-color: #fff;
+    color: white;
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+.top-link.active {
+    background-color: #fff;
+    border-right: 2px solid rgba(0, 0, 0, .060);
+    display: flex;
+    color: black;
+    font-weight: bold;
+
+}
+.group {
+    border: none;
+    border-radius: 3px; 
+    padding: 8px 0px;
+    font-size: 12px;
+    color: white;
+    white-space: nowrap;
+}
+.group:hover {
+    color: white;
+}
+
+.container-fluid {
+    justify-content: space-between;
+    align-items: center;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+
