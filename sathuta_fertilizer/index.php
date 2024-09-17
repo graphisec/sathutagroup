@@ -55,6 +55,9 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Fertilizer Stylesheet-->
+    <link href="sathuta_fertilizer/css/style.css" rel="stylesheet">
+
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
@@ -72,8 +75,8 @@
 
        <!-- Topbar Start -->
        <div class="container-fluid bg-dark text-light px-0 py-2">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
+        <div class="row gx-0 d-none d-lg-flex align-items-center justify-content-between">
+            <div class="col-lg-4 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span><a href="tel:+94773734244" class="contact_2">+94 77 373 4244</a></span>
@@ -83,17 +86,84 @@
                     <span><a href="mailto:contact@sathutagroup.com" class="contact_2">contact@sathutagroup.com</a></span>
                 </div>
             </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span style="font-size: 12px; margin-bottom: -2px;">Follow Us:</span>
+
+
+            <div class="col-lg-8 px-5 text-end">
+
+                <nav class="top d-inline-flex justify-content-start">
+                    <!--<a class="group mx-2">SATHUTA GROUP|</a> -->
+                    <a class="top-link mx-2" href="https://sathutaindustry.lk/">Industry</a>
+                    <a class="top-link mx-2 active" href="../sathuta_fertilizer/index.php">Fertilizer</a>
+                    <a class="top-link mx-2" href="../sathuta_metal_crusher/index.php">Metal Crusher</a>
+                    <a class="top-link mx-2" href="../sathuta_construction/index.php">Construction</a>
+                    <a class="top-link mx-2" href="../sathuta_transport/index.php">Transport</a>
+                    <a class="top-link mx-2" href="../sathuta_machinery/index.php">Machinery</a>
+                </nav>
+
+                <div class="h-100 d-inline-flex align-items-center">
+                    <span style="font-size: 12px; margin-bottom: -2px;">| Follow Us:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Topbar End -->
 
+
+
+    </div>
+
+        <!-- Topbar Button styles -->
+        <style>
+        .top-link {
+            border: none;
+            border-radius: 3px; 
+            padding: 8px 6px;
+            font-size: 12px;
+            color: white;
+            transition: background-color 0.3s, color 0.3s;
+            white-space: nowrap;
+        }
+        .top-link:hover {
+            background-color: #348E38;
+            color: white;
+        }
+        .top-link.active {
+            background-color: #348E38;
+            color: white;
+        }
+        .group {
+            border: none;
+            border-radius: 3px; 
+            padding: 8px 0px;
+            font-size: 12px;
+            color: white;
+            white-space: nowrap;
+        }
+        .group:hover {
+            color: white;
+        }
+    
+        .container-fluid {
+            justify-content: space-between;
+            align-items: center;
+        }
+        .d-flex {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .d-inline-flex {
+            display: inline-flex;
+            align-items: center;
+        }
+
+
+        </style>
+        <!-- Topbar Button styles -->
+
+    <!-- Topbar End -->
+    
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
