@@ -23,7 +23,6 @@
     display: flex;
     color: black;
     opacity: 70%;
-    font-weight: bold;
 }
 .top-link.active {
     background-color: #fff;
@@ -48,11 +47,6 @@
 
 .container-fluid {
     justify-content: space-between;
-    align-items: center;
-}
-.d-flex {
-    display: flex;
-    flex-wrap: nowrap;
     align-items: center;
 }
 
