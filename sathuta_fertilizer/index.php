@@ -61,9 +61,6 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
-    <!-- Custom Swiper CSS -->
-    <link rel="stylesheet" href="css/custom-swiper.css" />
-
     <!-- Topbar CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 

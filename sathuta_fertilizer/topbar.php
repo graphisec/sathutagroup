@@ -1,7 +1,7 @@
 <div class="container-fluid bg-dark text-light px-0 py-0">
     <div class="row gx-0 d-none d-lg-flex align-items-center justify-content-between">
         <div class="col-lg-4 px-5 text-start">
-            <a href="index.php" class="navbar-brand d-flex align-items-center p-0">
+            <a href="https://sathutagroup.com" class="navbar-brand d-flex align-items-center p-0">
                 <img class="logosize" src="img/logocroped.png" alt="Sathuta Group Logo">
             </a>
         </div>
