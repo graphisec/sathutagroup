@@ -260,6 +260,35 @@ h6,
     }
 }
 
+.carousel-item img {
+    animation: zoomInOut 10s infinite ease-in-out; /* Zoom animation for images */
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes zoomInOut {
+    0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(1deg) scale(1.02);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 .page-header {
     background: linear-gradient(rgb(238 163 27 / 15%), rgb(238 163 27 / 10%)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
