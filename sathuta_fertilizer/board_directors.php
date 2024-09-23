@@ -55,6 +55,9 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Custom Stylesheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/sidebar.css"> -->
+
     <!-- Topbar CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 </head>
