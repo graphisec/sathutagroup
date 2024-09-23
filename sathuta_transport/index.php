@@ -55,7 +55,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Topbar CSS -->
-    <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body>
@@ -67,7 +67,7 @@
 
 
     <!-- Topbar -->
-    <?php include '../topbar.php'; ?>
+    <?php include 'topbar.php'; ?>
 
 
     <!-- Navbar Start -->
@@ -669,7 +669,7 @@
 
 
     <!-- Footer -->
-    <?php include '../footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>

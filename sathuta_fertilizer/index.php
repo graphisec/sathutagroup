@@ -62,7 +62,7 @@
     <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
 
     <!-- Topbar CSS -->
-    <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
 </head>
 
@@ -75,7 +75,7 @@
 
 
     <!-- Topbar -->
-    <?php include '../topbar.php'; ?>
+    <?php include 'topbar.php'; ?>
     
 
     <!-- Navbar Start -->
