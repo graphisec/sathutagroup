@@ -1,12 +1,12 @@
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style="background: #0f4229;">
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style="background: #0e4a5c;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>211/A, Dewamiththa Place, Heiyanthuduwa, Sri Lanka</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+94705999888" class="contact_1">+94 70 599 9888<a/></p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:fertilizer@sathutagroup.com" class="contact_1">fertilizer@sathutagroup.com</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+94773734244" class="contact_1">+94 77 373 4244<a/></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:contact@sathutagroup.com" class="contact_1">contact@sathutagroup.com</a></p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -16,16 +16,17 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Landscaping</a>
-                    <a class="btn btn-link" href="">Pruning plants</a>
-                    <a class="btn btn-link" href="">Urban Gardening</a>
-                    <a class="btn btn-link" href="">Garden Maintenance</a>
-                    <a class="btn btn-link" href="">Green Technology</a>
+                    <a class="btn btn-link" href="what_we_do.php#SERVICE01">Supplying Of Manufactured Sand</a>
+                    <a class="btn btn-link" href="what_we_do.php#SERVICE02">Pruning Supplying Of Quarry Dust</a>
+                    <a class="btn btn-link" href="what_we_do.php#SERVICE03">Supplying Of Gravel Soil</a>
+                    <a class="btn btn-link" href="what_we_do.php#SERVICE04">Transport Services</a>
+                    <a class="btn btn-link" href="what_we_do.php#SERVICE05">Heavy Machinery Supplying</a>
+                    <a class="btn btn-link" href="what_we_do.php#SERVICE06">Construction</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="corporate_profile.php">Corporate Profile</a>
-                    <a class="btn btn-link" href="fertilizer.php">What We Do</a>
+                    <a class="btn btn-link" href="who_we_are.php">Who We Are</a>
+                    <a class="btn btn-link" href="what_we_do.php">What We Do</a>
                     <a class="btn btn-link" href="news_event.php">News & Event</a>
                     <a class="btn btn-link" href="contact.php">Contact Us</a>
                     <a class="btn btn-link" href="../index.php">Sathuta Group</a>

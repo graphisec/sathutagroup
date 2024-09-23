@@ -1,5 +1,5 @@
-      <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style="background: #0e4a5c;">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style="background: #0e4a5c;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
