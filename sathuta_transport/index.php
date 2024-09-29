@@ -53,6 +53,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Topbar CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body>
@@ -63,29 +66,8 @@
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark text-light px-0 py-2">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <span class="fa fa-phone-alt me-2"></span>
-                    <span><a href="tel:+94773734244" class="contact_2">+94 77 373 4244</a></span>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <span class="far fa-envelope me-2"></span>
-                    <span><a href="mailto:contact@sathutagroup.com" class="contact_2">contact@sathutagroup.com</a></span>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span style="font-size: 12px; margin-bottom: -2px;">Follow Us:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
+    <!-- Topbar -->
+    <?php include 'topbar.php'; ?>
 
 
     <!-- Navbar Start -->
@@ -146,13 +128,13 @@
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Build Your Future With Us</h1>
+                                <div class="col-lg-7">
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Best Quality Fertilizer Products In South Asia</h1>
                                     <a href="../index.php" class="btn btn-primary py-sm-3 px-sm-4">Sathuta Group</a>
                                 </div>
                             </div>
@@ -164,8 +146,21 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-7">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Build Your Future With Us</h1>
+                                <div class="col-lg-8">
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Best Quality Fertilizer Products In South Asia</h1>
+                                    <a href="../index.php" class="btn btn-primary py-sm-3 px-sm-4">Sathuta Group</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Best Quality Fertilizer Products In South Asia</h1>
                                     <a href="../index.php" class="btn btn-primary py-sm-3 px-sm-4">Sathuta Group</a>
                                 </div>
                             </div>
@@ -301,44 +296,45 @@
     <!-- Facts End -->
 
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
-                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-                    <p class="mb-4">We are highly dedicated to meet with the requirements of local and foreign clientele of high and low magnitude endeavors who are in the field of machinery, transport, constructions.</p>
-                    <a class="btn btn-primary py-3 px-4" href="what_we_do.php">Explore More</a>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-md-6">
-                            <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                                            <i class="fa fa-check fa-3x text-primary"></i>
-                                        </div>
-                                        <h4 class="mb-0">100% Satisfaction</h4>
-                                    </div>
-                                </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                                            <i class="fa fa-users fa-3x text-primary"></i>
-                                        </div>
-                                        <h4 class="mb-0">Dedicated Team</h4>
-                                    </div>
-                                </div>
+    <!-- Top Feature Start -->
+    <div class="container-fluid top-feature py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow fadeIn feature-item" data-wow-delay="0.1s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-times text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4 style="font-size: 17px;">Quality Products & Services</h4>
+                                <span style="font-size: 15px;">We provide most quality products and also most reliable service.</span>
                             </div>
                         </div>
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                            <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                                    <i class="fa fa-tools fa-3x text-primary"></i>
-                                </div>
-                                <h4 class="mb-0">Modern Equipment</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn feature-item" data-wow-delay="0.3s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-users text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4 style="font-size: 17px;">Dedicated Team</h4>
+                                <span style="font-size: 15px;">We are strong team with more than 100+ human resources.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn feature-item" data-wow-delay="0.5s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-phone text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4 style="font-size: 17px;">8/7 Service</h4>
+                                <span style="font-size: 15px;">We provide service on every weekdays and also on every week end as well.</span>
                             </div>
                         </div>
                     </div>
@@ -346,7 +342,7 @@
             </div>
         </div>
     </div>
-    <!-- Features End -->
+    <!-- Top Feature End -->
 
 
     <!-- Service Start -->
@@ -672,68 +668,8 @@
     <!-- Testimonial End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style="background: #0e4a5c;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-4">Our Office</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>211/A, Dewamiththa Place, Heiyanthuduwa, Sri Lanka</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+94773734244" class="contact_1">+94 77 373 4244<a/></p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:contact@sathutagroup.com" class="contact_1">contact@sathutagroup.com</a></p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="what_we_do.php#SERVICE01">Supplying Of Manufactured Sand</a>
-                    <a class="btn btn-link" href="what_we_do.php#SERVICE02">Pruning Supplying Of Quarry Dust</a>
-                    <a class="btn btn-link" href="what_we_do.php#SERVICE03">Supplying Of Gravel Soil</a>
-                    <a class="btn btn-link" href="what_we_do.php#SERVICE04">Transport Services</a>
-                    <a class="btn btn-link" href="what_we_do.php#SERVICE05">Heavy Machinery Supplying</a>
-                    <a class="btn btn-link" href="what_we_do.php#SERVICE06">Construction</a>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="who_we_are.php">Who We Are</a>
-                    <a class="btn btn-link" href="what_we_do.php">What We Do</a>
-                    <a class="btn btn-link" href="news_event.php">News & Event</a>
-                    <a class="btn btn-link" href="contact.php">Contact Us</a>
-                    <a class="btn btn-link" href="../index.php">Sathuta Group</a>
-                </div>
-                <!-- <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative w-100">
-                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="index.php">Sathuta Transport</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-bottom" href="https://aitech.lk" target="_blank">AI TECH</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
-
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
