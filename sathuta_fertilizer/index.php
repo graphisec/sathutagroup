@@ -393,7 +393,7 @@
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fs-5 fw-bold text-primary">Our Services</p>
                 <h1 class="display-5 mb-5">Services That We Offer For You</h1>
             </div>
@@ -441,6 +441,221 @@
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href="fertilizer.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 mt-5 mb-5">Services</h1>
+                <div class="row g-4">
+                   <h4 class="mb-2" style="font-family: 'Calibri', sans-serif; font-size: 25px;">Promoting Sustainable Agriculture for a Secure Future</h4>
+                    <p class="mb-4">At Sathuta Fertilizer, our primary mission is to advance the cause of sustainable agriculture in Sri Lanka and beyond, with a steadfast commitment to ensuring food security. We actively collaborate with all sectors involved in the country’s agriculture, working hand in hand to foster practices that are not only environmentally responsible but also contribute to the long-term viability of our agricultural sector.
+                         Join us in our dedication to building a sustainable and secure future for agriculture.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <div class="row g-4">
+                   <h4 class="mb-2" style="font-family: 'Calibri', sans-serif; font-size: 25px;">Trending Products</h4>
+                    <p class="mb-4">Explore our latest and most innovative fertilizers that are transforming sustainable agriculture. These trending products are trusted by farmers nationwide for delivering exceptional results and promoting healthier, more productive crops.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
+                <div class="row g-4">
+                   <h4 class="display-5 mb-9" style="font-family: 'Calibri', sans-serif; font-size: 35px; margin-top: 50px;">Our Services</h4>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/production.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/production.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Diverse Fertilizers for Every Need</h4>
+                        <p class="mb-4">Explore our range of organic, inorganic, and hybrid fertilizers, meticulously crafted to meet the specific requirements of various crops.</p>          
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/distribution.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/distribution.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Environmentally Friendly Farming Practices</h4>
+                        <p class="mb-4">Receive expert advice on sustainable and eco-friendly farming methods, promoting harmony between agriculture and the environment.</p>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/consultation.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/consultation.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Crop-Specific Advisory Services</h4>
+                        <p class="mb-4">Benefit from our advisory services tailored to various crops, ensuring optimal growth and yield through informed agricultural practices.</p>              
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/production.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/production.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">High-Quality Seed Offerings</h4>
+                        <p class="mb-4">Elevate your paddy cultivation with our premium seeds and plants, carefully selected for their superior quality and performance.</p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/distribution.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/distribution.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Cost-Effective Crop Establishment</h4>
+                        <p class="mb-4">Discover low-cost crop establishing systems designed to optimize resources while ensuring the successful establishment of your crops.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/consultation.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/consultation.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Plantation Agriculture Expertise</h4>
+                        <p class="mb-4">Tap into our consultancy services for agriculture, to receive guidance on best practices for large-scale cultivation projects. </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/production.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/production.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Landscaping Project Consultancy</h4>
+                        <p class="mb-4">We offer “artful practical insight” to transform your landscapes from mundane to super-invigorating sensory backdrops.</p>            
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded d-flex h-100">
+                    <!-- <div class="service-img rounded">
+                        <img class="img-fluid" src="img/distribution.jpg" alt="">
+                    </div> -->
+                    <div class="service-text rounded p-5">
+                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
+                            <img class="img-fluid" src="img/icon/distribution.png" alt="Icon">
+                        </div> -->
+                        <h4 class="mb-3">Maximizing Crop Your Yields</h4>
+                        <p class="mb-4">We are dedicated to providing a comprehensive suite of services to support and enhance every aspect of your agricultural endeavor.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
+                <div class="row g-4">
+                   <h4 class="display-5 mb-9" style="font-family: 'Calibri', sans-serif; font-size: 35px; margin-top: 50px;">All kind of Fertilizer Production</h4>
+                             
+                <div class="container">
+                    <div class="row">
+                        <!-- Big Bite Winner Section -->
+                        <div class="col-md-4">
+                            <div class="service-item rounded shadow-lg p-4 mb-5 text-center" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+                                <img src="img/product.jpg" class="img-fluid rounded-circle mb-3" alt="Big Bite Winner">
+                                <h4>Big Bite Winner</h4>
+                                <p><del>Original price was: රු2,500.00</del></p>
+                                <p>Current price is: <strong>රු1,950.00</strong></p>
+                                <p class="text-success">22% off</p>
+                            </div>
+                        </div>
+
+                        <!-- Hybrid Pellet Fertilizer Section -->
+                        <div class="col-md-4">
+                            <div class="service-item rounded shadow-lg p-4 mb-5 text-center" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+                                <img src="img/product.jpg" class="img-fluid rounded-circle mb-3" alt="Hybrid Pellet Fertilizer">
+                                <h4>Hybrid Pellet Fertilizer</h4>
+                                <p><del>Original price was: රු5,000.00</del></p>
+                                <p>Current price is: <strong>රු3,500.00</strong></p>
+                                <p class="text-success">30% off</p>
+                            </div>
+                        </div>
+
+                        <!-- Planter's Choice Section -->
+                        <div class="col-md-4">
+                            <div class="service-item rounded shadow-lg p-4 mb-5 text-center" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+                                <img src="img/product.jpg" class="img-fluid rounded-circle mb-3" alt="Planter's Choice">
+                                <h4>Planter’s Choice</h4>
+                                <p><del>Original price was: රු6,000.00</del></p>
+                                <p>Current price is: <strong>රු4,500.00</strong></p>
+                                <p class="text-success">25% off</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
+                            <div class="row g-4">
+                                <h4 class="display-5 mb-9" style="font-family: 'Calibri', sans-serif; font-size: 35px; margin-top: 50px;">Island Wide Distribution</h4>
+                                <div class="container py-5">
+                                    <!-- Fertilizer Distribution Section -->
+                                    <section class="my-5 p-5 rounded shadow-lg text-center" style="border: 3px solid darkgreen;">
+                                        <h2 class="display-5 mb-4" style="font-family: 'Calibri', sans-serif; font-size: 30px;">Fertilizer Distribution</h2>
+                                        <p style="font-size: 18px;">Reaching across Sri Lanka and beyond.</p>
+                                        <p>At Sathuta Ceylon Exports, we take immense pride in our extensive fertilizer distribution network, which spans all provinces of Sri Lanka and is poised for further expansion into international markets.</p>
+                                        <img src="img/production.jpg" alt="Fertilizer Distribution" class="img-fluid mt-4" style="border-radius: 15px; max-width: 100%;">
+                                    </section>
+
+                                    <!-- Our Current Reach Section -->
+                                    <section class="my-5 p-5 rounded shadow-lg text-center" style="border: 3px solid darkgreen;">
+                                        <h2 class="display-5 mb-4" style="font-family: 'Calibri', sans-serif; font-size: 30px;">Our Current Reach</h2>
+                                        <p style="font-size: 18px;">Sathuta Fertilizer takes pride in its robust distribution network.</p>
+                                        <p>Our network spans across every province in Sri Lanka, with a special focus on the paddy sector. We’re expanding into other sectors, with a strong commitment to serving the agricultural community in Sri Lanka.</p>
+                                        <img src="img/consultation.jpg" alt="Current Reach" class="img-fluid mt-4" style="border-radius: 15px; max-width: 100%;">
+                                    </section>
+
+                                    <!-- Global Expansion Section -->
+                                    <section class="my-5 p-5 rounded shadow-lg text-center" style="border: 3px solid darkgreen;">
+                                        <h2 class="display-5 mb-4" style="font-family: 'Calibri', sans-serif; font-size: 30px;">Global Expansion</h2>
+                                        <p style="font-size: 18px;">Embark on a global journey with Sathuta Fertilizer.</p>
+                                        <p>Our vision extends beyond national borders. We’ve recently ventured into international markets in the UAE and Maldives, and we’re targeting the tea sector in Africa. Join us in fostering sustainable agriculture globally.</p>
+                                        <img src="img/distribution.jpg" alt="Global Expansion" class="img-fluid mt-4" style="border-radius: 15px; max-width: 100%;">
+                                    </section>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -740,8 +955,8 @@
     </div>
     <!-- Testimonial End -->
 
-    <!-- Footer  -->
-    <?php include '../footer.php'; ?>
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
 
 
     <!-- Back to Top -->
