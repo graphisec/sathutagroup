@@ -409,7 +409,7 @@
                             </div>
                             <h4 class="mb-3">All kind of Fertilizer Production</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href="fertilizer.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                            <a class="btn btn-sm" href="services.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                             </div>
                             <h4 class="mb-3">Island Wide Distribution</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href="fertilizer.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                            <a class="btn btn-sm" href="services.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -439,7 +439,7 @@
                             </div>
                             <h4 class="mb-3">Expert Consultation</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href="fertilizer.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                            <a class="btn btn-sm" href="services.php"><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -462,129 +462,7 @@
                 </div>
             </div>
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
-                <div class="row g-4">
-                   <h4 class="display-5 mb-9" style="font-family: 'Calibri', sans-serif; font-size: 35px; margin-top: 50px;">Our Services</h4>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/production.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/production.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Diverse Fertilizers for Every Need</h4>
-                        <p class="mb-4">Explore our range of organic, inorganic, and hybrid fertilizers, meticulously crafted to meet the specific requirements of various crops.</p>          
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/distribution.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/distribution.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Environmentally Friendly Farming Practices</h4>
-                        <p class="mb-4">Receive expert advice on sustainable and eco-friendly farming methods, promoting harmony between agriculture and the environment.</p>    
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/consultation.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/consultation.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Crop-Specific Advisory Services</h4>
-                        <p class="mb-4">Benefit from our advisory services tailored to various crops, ensuring optimal growth and yield through informed agricultural practices.</p>              
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/production.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/production.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">High-Quality Seed Offerings</h4>
-                        <p class="mb-4">Elevate your paddy cultivation with our premium seeds and plants, carefully selected for their superior quality and performance.</p>   
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/distribution.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/distribution.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Cost-Effective Crop Establishment</h4>
-                        <p class="mb-4">Discover low-cost crop establishing systems designed to optimize resources while ensuring the successful establishment of your crops.</p>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/consultation.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/consultation.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Plantation Agriculture Expertise</h4>
-                        <p class="mb-4">Tap into our consultancy services for agriculture, to receive guidance on best practices for large-scale cultivation projects. </p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/production.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/production.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Landscaping Project Consultancy</h4>
-                        <p class="mb-4">We offer “artful practical insight” to transform your landscapes from mundane to super-invigorating sensory backdrops.</p>            
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item rounded d-flex h-100">
-                    <!-- <div class="service-img rounded">
-                        <img class="img-fluid" src="img/distribution.jpg" alt="">
-                    </div> -->
-                    <div class="service-text rounded p-5">
-                        <!-- <div class="btn-square rounded-circle mx-auto mb-3">
-                            <img class="img-fluid" src="img/icon/distribution.png" alt="Icon">
-                        </div> -->
-                        <h4 class="mb-3">Maximizing Crop Your Yields</h4>
-                        <p class="mb-4">We are dedicated to providing a comprehensive suite of services to support and enhance every aspect of your agricultural endeavor.</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    <div class="row g-4">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
                 <div class="row g-4">
                    <h4 class="display-5 mb-9" style="font-family: 'Calibri', sans-serif; font-size: 35px; margin-top: 50px;">All kind of Fertilizer Production</h4>
